@@ -1,0 +1,44 @@
+﻿@model IEnumerable<project1.Models.Employee>
+
+@{
+    ViewData["Title"] = "RawQuery";
+}
+
+<h1>RawQuery</h1>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Emp name</th>
+                <th>Salary</th>
+                <th>Department no</th>
+                <th>details</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.EmpName</td>
+                <td>@emp.Salary</td>
+                <td>@emp.DeptNo</td>
+                
+                <td>
+                    
+                    <a asp-action="Details" asp-route-id="@emp.Id">Details</a>
+                </td>
+               
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div>
+    
+    <a asp-action="Index">Back to List</a>
+</div>
