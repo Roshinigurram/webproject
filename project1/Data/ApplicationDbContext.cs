@@ -14,5 +14,6 @@ namespace project1.Data
         {
         }
         public DbSet<project1.Models.Employee> Employee { get; set; }
+        public DbSet<project1.Models.Department> Department { get; set; }
     }
 }

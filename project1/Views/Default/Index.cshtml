@@ -1,0 +1,66 @@
+﻿@model IEnumerable<project1.Models.Department>
+
+
+
+     
+@{
+    ViewData["Title"] = "Index";
+    var employees = (IEnumerable<project1.Models.Employee>)ViewBag.emp1;
+  
+
+}
+
+<h1>view data</h1>
+
+ @ViewData["City"]
+@TempData["name"]
+
+<h1>view bag</h1>
+
+@ViewBag.name
+
+<table class="table table-striped" >
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>empname</th>
+            <th> salary</th>
+            <th>deptno</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in employees)
+        {
+        <tr>
+            <th>@item.Id</th>
+            <th> @item.EmpName</th>
+            <th> @item.Salary</th>
+            <th> @item.DeptNo</th>
+        </tr>
+        }
+    </tbody>
+</table>
+    
+<h1> table2</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th> loc</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.id</th>
+                <th> @item.name</th>
+                <th> @item.loc</th>
+
+            </tr>
+        }
+    </tbody>
+</table>
+

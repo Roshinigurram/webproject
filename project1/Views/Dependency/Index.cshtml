@@ -1,5 +1,5 @@
 ﻿
-@inject project1.di.IExample Example
+@inject project1.di.IExample _example1
 
 @{
     ViewData["Title"] = "Index";
@@ -7,6 +7,6 @@
 
 <h1>Index</h1>
 
-<h1>
-    @Example.MyMethod() 
-</h1>
+
+    @_example1.MyMethod()
+   

@@ -192,7 +192,6 @@ D:\work\project1\project1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\work\project1\project1\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
 D:\work\project1\project1\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Employees\RawQuery.cshtml.g.cs
-D:\work\project1\project1\obj\Debug\netcoreapp3.1\project1.csprojAssemblyReference.cache
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MenuBar.cshtml.g.cs
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_partialview.cshtml.g.cs
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Paging.cshtml.g.cs
@@ -209,5 +208,16 @@ D:\work\project1\project1\bin\Debug\netcoreapp3.1\Unity.Mvc5.dll
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\project1.csproj.CoreCompileInputs.cache
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\project1.MvcApplicationPartsAssemblyInfo.cs
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\project1.MvcApplicationPartsAssemblyInfo.cache
-D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Controllers\Index.cshtml.g.cs
 D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Dependency\Index.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\sessioncookie\Get.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\sessioncookie\Index.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Controllers\ViewData.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Default\Index.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Create.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Delete.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Details.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Edit.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Index.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Default\component.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Employee\Default.cshtml.g.cs
+D:\work\project1\project1\obj\Debug\netcoreapp3.1\project1.csprojAssemblyReference.cache

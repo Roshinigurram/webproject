@@ -7,6 +7,7 @@ namespace project1.di
 {
    public  interface IExample
     {
-         void  MyMethod();
+         string MyMethod();
+       
     }
 }

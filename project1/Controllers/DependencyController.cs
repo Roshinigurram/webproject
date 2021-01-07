@@ -9,11 +9,11 @@ namespace project1.Controllers
 {
     public class DependencyController : Controller
     {
-        private readonly IExample example1;
+        private readonly IExample _example1;
 
         public DependencyController(IExample example)
         {
-            example1 = example;
+            _example1 = example;
         }
         public IActionResult Index()
         {
